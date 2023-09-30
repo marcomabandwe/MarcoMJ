@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>MJ</title>
+</head>
+<body >
+            <header>
+        
+                    <h1 class="red">mabandwe ndayi jean-marc</h1>
+                    <h2>ingénieur informaticien</h2>
+                
+                    <h2>le dieu du software</h2>
+                    
+                <nav>
+                    <a href="#"><img src="mj.png"  alt="" class="logo"> </a>
+                
+                <ul>
+                    <li><a href="#">accueil</a></li>
+                    <li><a href="pageservice.html">service</a></li>
+                    <li><a href="#df" >mon histoire</a></li>
+                </ul>
+                <img src="menu.png" class="menu-icon">
+            </nav>
+            <img src="mj.png" id="ad" >
+            </header>
+            <section class="marco">
+                <h5 style="text-align: center; text-transform: uppercase; font-size: 50px;">
+                   <!-- Element to contain animated typing -->
+  <span id="saisi"> bienvenu dans mon site</span></h5>
+                <h3> Mabandwe ndayi Jean-Marc <span style="font-size: 60px;">MJ</span></h3>
+                       <p id="pm"> <span style="font-size:medium; color:red">je suis analyste, concepteur ou programmeur informaticien </span>donc j'ai conçois des programme informatique, des application mobile et des site web ou inetrnet professionnel
+                        d'autre part grace à mes formation je suis réalisateur donc je fait de montage professionnel (je réalise les clips, le film, les publicité etc...)</p>
+<p id="pm">merci pour la confiance et la coonsideration cher consulteur et utilisateur</p>
+                <a href="#oui" class="me">me contacter </a> 
+                <a href="#sam" class="livre">mes livre</a>
+                
+            </section>
+            <div class="over">
+              </div>
+<div class="tra">
+            <h1>Que rechercher vous</h1> 
+            <button onclick="changeimage()">CHANGE LA PHOTO</button>
+            <img src="marco.jpg" id="mk"> 
+            <button onclick="alert('service indisponible')" id="bu1"> je veux un site personnel</button>
+            <button onclick="alert('service indisponible')" id="bu2">je veux un site pour mon entreprise</button>
+            <br>
+            <br>
+            <button onclick="alert('service indisponible')"  id="bu3">je veux un logiciel pour mon entreprise</button>
+            <button onclick="alert('service indisponible')" id="bu4">je veux vous rencontrer</button>
+</div>
+        <button style="border: solid 2px saddlebrown ; padding: 20px 30px ; margin-top: 3%;
+        -webkit-transition-duration: 2s; transition-duration: 2s; background-image: linear-gradient(red,yellow);
+        color:white;box-shadow: .5px .5px .1px .2px #000000;
+        :hover{
+background-color: #f8f9f9; color: chartreuse; box-shadow: 1px 1px 2px 3px #000000;
+cursor: pointer;
+}" 
+onclick="changestyles();"> Appuyez ici pour agrandir la taille</button> 
+        <p id='bobo'>mon entreprise je la nomme MJ: qui signifie mabandwe jean-marc. c'est une entreprise qui consiste à produire
+            les outils informatique virtuelle notamment; les logiciels, les sites internetes, etc.., qui servira à gérer pleinnement les entreprises, les sociétés
+            les institutions et d'autres. <br/>L'objectif primordial de mon entreprise vise l'evolution plus particulièrement dans mon secteur  et dans d'autre secteur; alors
+            quand on parle de l'évolution l'illusion est venu de l'informatique, grace à ce dernier, nous avons décider de changer le monde
+            dans sa forme et dans sa conception. </p> 
+            <p style="text-align: center;">cliquez sur le bouton pour obtenir le jour</p>
+            <button onClick="myFunction()" 
+            style="border: solid 2px saddlebrown ; padding: 20px 30px; background-image: linear-gradient(red,yellow) ;
+            margin-left: 20%; color:white";> aujoud'hui </button>
+            <p id="demo" style="text-align: center;"></p>
+        <script type="text/javascript">
+            alert("LE SITE EN COURS DE CONCEPTION DONC CERTAINE ELEMENT NE MARCHE PAS ENCORE! SI VOUS AVEZ BESOIN DE QUELQUE CHOSE N'HESITEZ PAS ME CONCTATER VIA LES RESEAU SOCIAUX. MERCI")
+            function changestyles() {
+    document.getElementById('bobo').style.fontSize="30px"
+    document.getElementById('bobo').style.fontStyle="italic"
+    document.getElementById('bobo').style.color="black"
+    }
+    function changecontent(){
+        document.getElementById("sam").innerHTML="LES LIVRES SONT EN COURS DE REDACTION...";
+        document.getElementById('sam').style.background="red"
+     }
+     function changeimage(){
+        document.getElementById("mk").src="nd.jpg";
+        document.getElementById("mk").src="fe.jpg";
+     }
+function myFunction()
+{
+	var x;
+	var d=new Date().getDay();
+	switch (d)
+  	{
+  	case 0:
+    	x="aujourd'hui c'est dimache";
+    	break;
+  	case 1:
+    	x="aujourd'hui c'est lundi";
+    	break;
+  	case 2:
+    	x="aujourd'hui c'est mardi";
+    	break;
+  	case 3:
+    	x="aujourd'hui c'est mercredi";
+    	break;
+  	case 4:
+    	x="aujourd'hui c'est jeudi";
+    	break;
+  	case 5:
+    	x="aujourd'hui c'est vendredi";
+    	break;
+  	case 6:
+    	x="aujourd'hui c'est samedi";
+    	break;
+  	}
+	document.getElementById("demo").innerHTML=x;
+    document.getElementById("demo").style.fontSize="50px"
+    document.getElementById("demo").style.textDecoration="solid red 2px"
+} </script>
+
+       <p id="sam"> cliquez sur ce boutton ci-dessous pour telecharger mes livres</p>
+       <button style="border: solid 2px saddlebrown ; padding: 20px 30px;-webkit-transition-duration: 2s; transition-duration: 2s;
+       background-image:linear-gradient(blue,white); color:white; box-shadow: .5px .5px .1px .2px #000000; 
+       :hover{
+    background-position: #903c56; color:#f8f9f9;box-shadow: 1px 1px 2px 3px #000000;
+    cursor: pointer;
+}"
+    onclick="changecontent();"> telecharger mes livre</button>
+        <p><span class="ld">
+          je  vous présent ce que j'en suis capable ou mon entreprise est capable:
+        </span></p>
+        <dl class="papa"> 
+        <br/>
+        <dt>1.création des logiciel informatique</dt>
+        <br/>
+        <dd >
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>N°</th>
+                        <th>logiciel</th>
+                        <th>appareil</th>
+                        <th>fonctionnalité</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>01</td>
+                        <td>gestion des frais scolares</td>
+                        <td> ordinateur</td>
+                        <td><ul>l'application peut:
+                            <li>Enreegistrer toutes les opération des paiements fait par l'élève</li>
+                            <li>sortir le récu de l'élève. 10 récu par seconsaire</li>
+                            <li>calculer la somme de tous les frais scolaires </li>
+                        </ul> </td>
+                    </tr>
+                    <tr>
+                        <td> 02</td>
+                        <td>gestion de la rémunération</td>
+                        <td>ordinateur</td>
+                        <td>
+                            <ul> l'application peut:
+                                <li>récuperation d'information</li>
+                                <li>Enreegistre tout les bulletin des paies</li>
+                                <li>notifie au personnel la paie est prêt</li>
+                                <li>scannage du code QR</li>
+    
+                            </ul>
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td>kids</td>
+                        <td>téléphone</td>
+                        <td>
+                            <ul> l'application peut:
+                                <li>répondre un bon nombre des question scolaires</li>
+                                <li>gère les scores faites par l'utilisateur</li>
+                                <li>apprendre les enfants à bricoler</li>
+                                
+                            </ul>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        
+        </dd>
+        <br>
+        <dt>2.création des application mobile</dt>
+        <br>
+        <dd> en cours des productions</dd>
+        <br>
+        <ul style="list-style: symbols();">
+            <li>------</li>
+            <li>-----</li>
+            <li>-----</li>
+            <li>-----</li>
+
+        </ul>
+        <dt>3.création des sites web professionel</dt>
+        <br>
+        <ul style="list-style: symbols('chrome1');">
+            <li>wwww.csLAROSEE.com</li>
+            <li>www.E-vibration.org</li>
+            <li>www.Gslafleure.com</li>
+            <li>www.MsnHP.com</li>
+        <dt>voici les sites internet que mon entreprise peut produire:</dt>
+        <ul>
+            <li>les sites professionnels</li>
+            <li>les sites personnel</li>
+            <li>les sites de gestion de recrutement</li>
+            <li>les sites pour entreprise</li>
+            <li>les sites commerciales ou de gestion</li>
+            <li>et tant d'autre...</li>
+        </ul>
+    </dl>
+    
+   
+    <a href="pageservice.html" style="float:right;
+    font-size: 30px;">Appuyez ici pour commander ce que vous voulez</a>
+    <p id="df">je me nomme jean-marc, connu sous le nom de marco née dans une famille militaire dont j'ai 2 grandes soeurss et deux grand frères et moi le cadet 
+                        depuis bien longtemps j'adorais le football, c'était mon reve depuis tout petit. j'ai commencé avec la catégorie pipi à 5 ans et à l'age de 8 ans je suis 
+                            monté à la catégorie minine, dans cette catégorie je n'avait pas trainé après une année seulement on me fait monté dans cadet et je n'avait que 9 ans. pendant je jouait 
+                            j'etudiais aussi. dans cette catégorie cadet on a joué plusieur competition j'ai été 6 fois proclamé passeur et 4 fois proclamé buteur, a l'avant dernière compétition j'avait 
+                            une grande blessure au niveau du genou gauche et a cause de cet incident mes parents ne voulaient plus que je rejoue plus jamais au foot, après ma blessure j'ai repris mes activités footbalistique 
+                            en cachette 1 mois après mon retour mon coach decida de faire monter à la catégorie junior là j'avais 14 ans alors que l'equipe de junior conprennait les joeurs agés de 16, 17,18 voir même 20 ans
+                            et comme ça je commencé à negligé mes etudes, j'ai eu beaucoups de problèmes avec mes parents malgré les difficultés je continuais toujours arrivé à l'age de 16 ans j'obtien ma carte de joeur et je joue 
+                            pour la première fois le championnat c'était grandiose immmense. et je me demande aujourd'hui comme j'ai pu abandonner mon rêve, certains diront que je suis un lache, faible etc... mais en réalité j'avait
+                            compris une chose et que Au congo si tu es née dans une famille pauvre il ne faut pas chercher à esperer la grandeur et il faut chercher à sourir la famille qui est pauvre, c'est ça ce que je fait j'ai commencé
+                            chercher de l'argent et celà marque le début de ma vie serieuse.</p>
+                            
+</body>
+<div class="lolo">
+<footer >
+    <h6>
+        <span style="font-size: 22px; text-decoration: underline; "
+        >
+            mes adresse:</span> <br>
+        avenue: Okapi, Quartier: congo<br> 
+        n°:7, Commune de Ngaliema
+    </h6>
+    <h7 class="h7">
+        je suis diponibles dans les réseaux sociaux, présentement mon site est en cours
+        de réalisation. pour me conctater cliquez sur l'icone. merci
+    </h7>
+    <nav>
+        <img src="mj.png"  alt="" class="logo">
+    <ul class="ok">
+        <li><a href="https://instagram.com/mabandwejeanmarc?igshid=YWYwM2I1ZDdmOQ==" target="_blank"><img src="icon inst.PNG"></a></li>
+        <li><a href="https://www.snapchat.com/add/marco91433?share_id=19LyL-wsl20&locale=fr-FR" target="_blank"><img src="icon snap.PNG"></a></li>
+        <li><a href= "https://www.tiktok.com/@jnmarco1?_t=8fiulHoRBnK&_r=1" target="_blank"><img src="icon ttk.PNG"></a></li>
+        <li><a href="https://wa.me/0852591433"><img src="icon watsp.PNG"></a></li>
+        <li><a href="https://twitter.com/MMabandwe?t=sB1vkDrWVlCQG1WQCKW6Dw&s=099" target="_blank"><img src="icon twt.PNG"></a></li>
+        <li><a href="mailto:mabandwemarco@Gmail.com" target="_blank"><img src="icon icloud.PNG"></a></li>
+    </ul>
+</nav>
+<div class="autr">
+    <ul>
+        <li>instangram</li>
+        <li>snapchat</li>
+        <li>tiktok</a></li>
+        <li>watsapp</li>
+        <li>twitter</li>
+        <li>Email</li>
+    </ul>
+</div>
+<ul class="sa">
+    <li>A propos</li>
+    <li>contacte</li>
+    <li>mon histoire</li>
+</ul>
+<p id="oui"  style="text-align: center;">+ 243 0852591433<br>mabandwemarco@Gmail.com</p>
+    <h4 >
+        © copyright codeliber 2023 | All rights reserved<br>
+        edition 2023 by jean-marc mabandwe
+    </h4>
+    </footer>
+    </div>
+</html>

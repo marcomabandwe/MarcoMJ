@@ -1,0 +1,52 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+            }
+form{
+    display: flex; flex-direction: column; width: 50rem; gap:2rem; margin-left: 2%;
+    }
+    input, select,textarea{font-size: 50px; 
+    padding: 6px; background: transparent; border: 2px solid black;
+    }
+    #ben, #ned{
+        font-size: 300px; color: brown;
+        }
+#h{
+font-size: 50px; color: black;margin-left: 2%;
+}
+table#ta{
+        font-size: 100px; margin-left: 5%; border: black solid 2px;
+        }
+button#nn{
+padding: 10px 200px 50px; border:red solid 2px; text-align: center;
+font-size: 80px; margin-left: 2%;
+}
+button#mm{
+padding: 10px 200px 50px; border:red solid 2px; text-align: center;
+font-size: 80px;}
+#joli{
+padding: 50px 200px 50px; border:red solid 2px; text-align: center;
+font-size: 80px; cursor: pointer;
+}
+h6{
+font-size: 40px;
+}
+.logo{
+width: 2000px; height: 100px;
+}
+#ben:active{
+color: blue; transition-duration: 5s;
+}
+#hh{
+max-height: 100px; overflow-y: hidden; transition: all 2s;
+}
+dl{font-size: 45px; font-family: 'Times New Roman', Times, serif;
+
+}
+#cont{
+    background-image: linear-gradient(blue,white); 
+}
